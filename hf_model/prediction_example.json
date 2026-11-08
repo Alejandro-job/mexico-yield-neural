@@ -1,0 +1,89 @@
+{
+  "origin_month": "2026-09-01",
+  "forecasts": [
+    {
+      "horizon_months": 3,
+      "target_month": "2026-12-01",
+      "rates": [
+        {
+          "maturity": "28d",
+          "prediction_pct": 6.123633748483638
+        },
+        {
+          "maturity": "91d",
+          "prediction_pct": 6.481310555723197
+        },
+        {
+          "maturity": "182d",
+          "prediction_pct": 6.621938145596937
+        },
+        {
+          "maturity": "364d",
+          "prediction_pct": 6.85190874195003
+        },
+        {
+          "maturity": "3a",
+          "prediction_pct": 8.009285096007996
+        },
+        {
+          "maturity": "5a",
+          "prediction_pct": 8.735970415460782
+        },
+        {
+          "maturity": "10a",
+          "prediction_pct": 9.128295030385097
+        },
+        {
+          "maturity": "20a",
+          "prediction_pct": 9.446270637635743
+        },
+        {
+          "maturity": "30a",
+          "prediction_pct": 9.642574138285722
+        }
+      ]
+    },
+    {
+      "horizon_months": 12,
+      "target_month": "2027-09-01",
+      "rates": [
+        {
+          "maturity": "28d",
+          "prediction_pct": 5.740484992817666
+        },
+        {
+          "maturity": "91d",
+          "prediction_pct": 5.904697453817223
+        },
+        {
+          "maturity": "182d",
+          "prediction_pct": 6.153112764065087
+        },
+        {
+          "maturity": "364d",
+          "prediction_pct": 6.493197058110958
+        },
+        {
+          "maturity": "3a",
+          "prediction_pct": 7.869224917798063
+        },
+        {
+          "maturity": "5a",
+          "prediction_pct": 8.650012463499637
+        },
+        {
+          "maturity": "10a",
+          "prediction_pct": 9.19993834613175
+        },
+        {
+          "maturity": "20a",
+          "prediction_pct": 9.289245859576212
+        },
+        {
+          "maturity": "30a",
+          "prediction_pct": 9.702631968368264
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "horizon_months": 3,
+    "model": "Ridge 9 tasas",
+    "rmse_bp": 56.4968052045,
+    "mae_bp": 43.7113619004,
+    "observations": 965,
+    "origins": 118
+  },
+  {
+    "horizon_months": 3,
+    "model": "IA · Gradient boosting",
+    "rmse_bp": 61.6729940952,
+    "mae_bp": 47.4202818644,
+    "observations": 965,
+    "origins": 118
+  },
+  {
+    "horizon_months": 3,
+    "model": "Red neuronal MLP",
+    "rmse_bp": 62.210710403,
+    "mae_bp": 48.519311731,
+    "observations": 965,
+    "origins": 118
+  },
+  {
+    "horizon_months": 3,
+    "model": "PCA 3 + ridge",
+    "rmse_bp": 62.8014826978,
+    "mae_bp": 49.1938993144,
+    "observations": 965,
+    "origins": 118
+  },
+  {
+    "horizon_months": 3,
+    "model": "Persistencia",
+    "rmse_bp": 66.0746868983,
+    "mae_bp": 51.770984456,
+    "observations": 965,
+    "origins": 118
+  },
+  {
+    "horizon_months": 3,
+    "model": "Univariado",
+    "rmse_bp": 67.7923458749,
+    "mae_bp": 53.7031591323,
+    "observations": 965,
+    "origins": 118
+  },
+  {
+    "horizon_months": 12,
+    "model": "Ridge 9 tasas",
+    "rmse_bp": 174.5825556517,
+    "mae_bp": 145.9850895423,
+    "observations": 891,
+    "origins": 109
+  },
+  {
+    "horizon_months": 12,
+    "model": "IA · Gradient boosting",
+    "rmse_bp": 175.9098198455,
+    "mae_bp": 144.3222207942,
+    "observations": 891,
+    "origins": 109
+  },
+  {
+    "horizon_months": 12,
+    "model": "Persistencia",
+    "rmse_bp": 187.2833548247,
+    "mae_bp": 146.758698092,
+    "observations": 891,
+    "origins": 109
+  },
+  {
+    "horizon_months": 12,
+    "model": "PCA 3 + ridge",
+    "rmse_bp": 196.0816267239,
+    "mae_bp": 159.1871442443,
+    "observations": 891,
+    "origins": 109
+  },
+  {
+    "horizon_months": 12,
+    "model": "Red neuronal MLP",
+    "rmse_bp": 197.820060147,
+    "mae_bp": 156.8236821965,
+    "observations": 891,
+    "origins": 109
+  },
+  {
+    "horizon_months": 12,
+    "model": "Univariado",
+    "rmse_bp": 197.922556825,
+    "mae_bp": 161.0357008904,
+    "observations": 891,
+    "origins": 109
+  }
+]

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670" role="img">
+<title>Validación temporal en cada origen o</title><desc>El modelo usa datos conocidos en o; sus predicciones se comparan con observaciones posteriores</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#46617e"/></marker></defs>
+<rect width="100%" height="100%" rx="20" fill="#f2f6fb"/>
+<g font-family="Arial, sans-serif" fill="#172e4c">
+<text x="34" y="47" font-size="27" font-weight="700">Validación temporal en cada origen o</text>
+<text x="34" y="78" font-size="16" fill="#526984">El modelo usa datos conocidos en o; sus predicciones se comparan con observaciones posteriores</text>
+<rect x="34" y="124" width="450" height="206" rx="15" fill="#dff1ed" stroke="#ccdae8"/>
+<rect x="500" y="124" width="380" height="206" rx="15" fill="#e3edfb" stroke="#ccdae8"/>
+<rect x="900" y="124" width="266" height="206" rx="15" fill="#fcebd5" stroke="#ccdae8"/>
+<text x="54" y="158" font-size="18" fill="#172e4c" font-weight="700" text-anchor="start">1 · CALIBRACIÓN</text>
+<text x="54" y="192" font-size="18" fill="#172e4c" font-weight="400" text-anchor="start">Etiquetas observadas hasta v − 1</text>
+<text x="54" y="228" font-size="17" fill="#172e4c" font-weight="400" text-anchor="start">Medianas y escalas de esta partición</text>
+<text x="54" y="261" font-size="17" fill="#172e4c" font-weight="400" text-anchor="start">Entrena la red que seleccionará épocas</text>
+<text x="54" y="303" font-size="16" fill="#06734b" font-weight="700" text-anchor="start">Nunca usa etiquetas de validación</text>
+<text x="520" y="158" font-size="18" fill="#172e4c" font-weight="700" text-anchor="start">2 · VALIDACIÓN INTERNA</text>
+<text x="520" y="192" font-size="18" fill="#172e4c" font-weight="400" text-anchor="start">12 orígenes: de v a o − 12</text>
+<text x="520" y="228" font-size="17" fill="#172e4c" font-weight="400" text-anchor="start">Sus objetivos a 12 meses llegan a o</text>
+<text x="520" y="261" font-size="17" fill="#172e4c" font-weight="400" text-anchor="start">Selecciona el número de épocas</text>
+<text x="520" y="303" font-size="16" fill="#315f9e" font-weight="700" text-anchor="start">Etiquetas ya conocidas en o</text>
+<text x="920" y="158" font-size="18" fill="#172e4c" font-weight="700" text-anchor="start">FUTURO</text>
+<text x="920" y="192" font-size="19" fill="#172e4c" font-weight="400" text-anchor="start">o + 3 y o + 12</text>
+<text x="920" y="228" font-size="17" fill="#172e4c" font-weight="400" text-anchor="start">Reservado para medir</text>
+<text x="920" y="261" font-size="17" fill="#172e4c" font-weight="400" text-anchor="start">el error del pronóstico</text>
+<text x="920" y="303" font-size="16" fill="#8b5914" font-weight="700" text-anchor="start">Fuera del entrenamiento</text>
+<path d="M54 365 L1138 365" stroke="#46617e" stroke-width="2.3" fill="none"/><polygon points="1146,365 1138,361 1138,369" fill="#46617e"/>
+<text x="54" y="393" font-size="15" fill="#526984" font-weight="400" text-anchor="start">Tiempo →</text>
+<text x="500" y="393" font-size="15" fill="#526984" font-weight="400" text-anchor="start">v = o − 23</text>
+<text x="860" y="393" font-size="16" fill="#172e4c" font-weight="700" text-anchor="start">o</text>
+<rect x="34" y="431" width="846" height="138" rx="15" fill="#fff" stroke="#ccdae8"/>
+<rect x="900" y="431" width="266" height="138" rx="15" fill="#fff" stroke="#ccdae8"/>
+<text x="54" y="465" font-size="18" fill="#172e4c" font-weight="700" text-anchor="start">3 · REAJUSTE EN o</text>
+<text x="54" y="499" font-size="17" fill="#172e4c" font-weight="400" text-anchor="start">Red nueva con las épocas elegidas y todos los objetivos conocidos hasta o.</text>
+<text x="54" y="535" font-size="17" fill="#172e4c" font-weight="400" text-anchor="start">Se vuelven a estimar las medianas y las escalas con ese entrenamiento.</text>
+<text x="920" y="465" font-size="18" fill="#172e4c" font-weight="700" text-anchor="start">4 · EVALUACIÓN</text>
+<text x="920" y="499" font-size="17" fill="#172e4c" font-weight="400" text-anchor="start">Mismos pares que</text>
+<text x="920" y="532" font-size="17" fill="#172e4c" font-weight="400" text-anchor="start">persistencia y Ridge</text>
+<path d="M880 501 L890 501" stroke="#46617e" stroke-width="2.3" fill="none"/><polygon points="898,501 890,497 890,505" fill="#46617e"/>
+<text x="34" y="614" font-size="18" fill="#172e4c" font-weight="700" text-anchor="start">El proceso se repite mes a mes con una ventana expansiva y un historial inicial de 120 meses.</text>
+<text x="34" y="645" font-size="16" fill="#526984" font-weight="400" text-anchor="start">Los objetivos ausentes no se rellenan. Los rezagos se construyen sólo con el mes de referencia y meses anteriores.</text>
+</g></svg>

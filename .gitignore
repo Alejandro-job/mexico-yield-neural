@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+data/cache/
+outputs/local_*.json
+outputs/hf_upload_receipt.json
+outputs/verification_report.html
+.cache/
+hf_model/.cache/

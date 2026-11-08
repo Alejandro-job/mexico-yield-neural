@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img">
+<title>Red neuronal densa · 1,066 parámetros</title><desc>Tasas mensuales de México · Implementación con NumPy, retropropagación y Adam</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#46617e"/></marker></defs>
+<rect width="100%" height="100%" rx="20" fill="#f2f6fb"/>
+<g font-family="Arial, sans-serif" fill="#172e4c">
+<text x="34" y="47" font-size="27" font-weight="700">Red neuronal densa · 1,066 parámetros</text>
+<text x="34" y="78" font-size="16" fill="#526984">Tasas mensuales de México · Implementación con NumPy, retropropagación y Adam</text>
+<rect x="34" y="118" width="238" height="350" rx="15" fill="#fff" stroke="#ccdae8"/>
+<rect x="326" y="118" width="204" height="350" rx="15" fill="#fff" stroke="#ccdae8"/>
+<rect x="584" y="118" width="204" height="350" rx="15" fill="#fff" stroke="#ccdae8"/>
+<rect x="842" y="118" width="324" height="350" rx="15" fill="#fff" stroke="#ccdae8"/>
+<text x="54" y="151" font-size="14" fill="#526984" font-weight="700" text-anchor="start">ENTRADA</text>
+<text x="54" y="186" font-size="25" fill="#172e4c" font-weight="700" text-anchor="start">47 variables</text>
+<text x="54" y="231" font-size="16" fill="#172e4c" font-weight="400" text-anchor="start">9 tasas actuales</text>
+<text x="54" y="261" font-size="16" fill="#172e4c" font-weight="400" text-anchor="start">9 rezagos de un mes</text>
+<text x="54" y="291" font-size="16" fill="#172e4c" font-weight="400" text-anchor="start">9 rezagos de tres meses</text>
+<text x="54" y="321" font-size="16" fill="#172e4c" font-weight="400" text-anchor="start">9 cambios de un mes</text>
+<text x="54" y="351" font-size="16" fill="#172e4c" font-weight="400" text-anchor="start">9 cambios de tres meses</text>
+<text x="54" y="381" font-size="16" fill="#172e4c" font-weight="400" text-anchor="start">2 pendientes de la curva</text>
+<text x="54" y="445" font-size="14" fill="#526984" font-weight="400" text-anchor="start">Imputación y normalización</text>
+<text x="346" y="151" font-size="14" fill="#526984" font-weight="700" text-anchor="start">CAPA OCULTA</text>
+<text x="346" y="186" font-size="25" fill="#172e4c" font-weight="700" text-anchor="start">16 neuronas</text>
+<text x="346" y="218" font-size="17" fill="#087b82" font-weight="700" text-anchor="start">ReLU</text>
+<circle cx="368" cy="255" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="408" cy="255" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="448" cy="255" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="488" cy="255" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="368" cy="292" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="408" cy="292" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="448" cy="292" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="488" cy="292" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="368" cy="329" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="408" cy="329" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="448" cy="329" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="488" cy="329" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="368" cy="366" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="408" cy="366" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="448" cy="366" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="488" cy="366" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<text x="346" y="416" font-size="14" fill="#172e4c" font-weight="400" text-anchor="start">W1: 47 × 16 · b1: 16</text>
+<text x="346" y="445" font-size="14" fill="#526984" font-weight="400" text-anchor="start">768 parámetros</text>
+<text x="604" y="151" font-size="14" fill="#526984" font-weight="700" text-anchor="start">CAPA OCULTA</text>
+<text x="604" y="186" font-size="25" fill="#172e4c" font-weight="700" text-anchor="start">8 neuronas</text>
+<text x="604" y="218" font-size="17" fill="#087b82" font-weight="700" text-anchor="start">ReLU</text>
+<circle cx="626" cy="255" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="666" cy="255" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="706" cy="255" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="746" cy="255" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="626" cy="292" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="666" cy="292" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="706" cy="292" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<circle cx="746" cy="292" r="12" fill="#d9f1f0" stroke="#087b82" stroke-width="1.5"/>
+<text x="604" y="416" font-size="14" fill="#172e4c" font-weight="400" text-anchor="start">W2: 16 × 8 · b2: 8</text>
+<text x="604" y="445" font-size="14" fill="#526984" font-weight="400" text-anchor="start">136 parámetros</text>
+<text x="862" y="151" font-size="14" fill="#526984" font-weight="700" text-anchor="start">SALIDA LINEAL</text>
+<text x="862" y="186" font-size="25" fill="#172e4c" font-weight="700" text-anchor="start">18 cambios futuros</text>
+<text x="862" y="223" font-size="17" fill="#087b82" font-weight="700" text-anchor="start">9 a tres meses</text>
+<text x="862" y="302" font-size="17" fill="#087b82" font-weight="700" text-anchor="start">9 a doce meses</text>
+<circle cx="873" cy="250" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="904" cy="250" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="935" cy="250" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="966" cy="250" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="997" cy="250" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="1028" cy="250" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="1059" cy="250" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="1090" cy="250" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="1121" cy="250" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="873" cy="329" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="904" cy="329" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="935" cy="329" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="966" cy="329" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="997" cy="329" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="1028" cy="329" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="1059" cy="329" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="1090" cy="329" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<circle cx="1121" cy="329" r="9" fill="#dfebfd" stroke="#315f9e"/>
+<text x="862" y="374" font-size="16" fill="#172e4c" font-weight="400" text-anchor="start">W3: 8 × 18 · b3: 18</text>
+<text x="862" y="405" font-size="16" fill="#526984" font-weight="400" text-anchor="start">162 parámetros</text>
+<text x="862" y="445" font-size="14" fill="#526984" font-weight="400" text-anchor="start">Dos horizontes × nueve vencimientos</text>
+<path d="M280 285 L308 285" stroke="#46617e" stroke-width="2.3" fill="none"/><polygon points="316,285 308,281 308,289" fill="#46617e"/>
+<path d="M538 285 L566 285" stroke="#46617e" stroke-width="2.3" fill="none"/><polygon points="574,285 566,281 566,289" fill="#46617e"/>
+<path d="M796 285 L824 285" stroke="#46617e" stroke-width="2.3" fill="none"/><polygon points="832,285 824,281 824,289" fill="#46617e"/>
+<text x="34" y="512" font-size="20" fill="#172e4c" font-weight="700" text-anchor="start">Pronóstico de tasa = tasa del mes de referencia + cambio estimado sin estandarizar</text>
+<text x="34" y="544" font-size="15" fill="#526984" font-weight="400" text-anchor="start">Orden de tasas: 28d, 91d, 182d, 364d, 3a, 5a, 10a, 20a y 30a. Tasas expresadas como porcentaje anualizado.</text>
+</g></svg>

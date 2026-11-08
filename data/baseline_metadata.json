@@ -1,0 +1,7 @@
+{
+  "source_csv_sha256": "64e708f2057d766e98cec5082550f5266c4b8914cc9c15bdd73485569f53fb03",
+  "description": "Cached chronological baseline predictions exported from the original Mexico Yield Lab exercise. Recompute this snapshot before evaluating a different source CSV.",
+  "initial_history_months": 120,
+  "horizons_months": [3, 12],
+  "maximum_feature_forward_fill_months": 2
+}
